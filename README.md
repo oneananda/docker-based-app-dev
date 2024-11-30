@@ -11,6 +11,40 @@ Welcome to the "Docker-Based Application Development" repository! This repositor
 
 ---
 
+### **Repository Structure**
+```
+docker-based-app-dev/
+│
+├── 01-Basics/
+│   ├── Dockerfile-examples/
+│   ├── container-commands.md
+│   └── image-optimization.md
+│
+├── 02-Docker-Compose/
+│   ├── single-service/
+│   ├── multi-service/
+│   └── networking-tips.md
+│
+├── 03-Real-World-Examples/
+│   ├── python-flask-app/
+│   ├── nodejs-app/
+│   ├── react-app/
+│   └── README.md
+│
+├── 04-CI-CD-Integration/
+│   ├── github-actions-example/
+│   ├── jenkins-example/
+│   └── README.md
+│
+├── 05-Troubleshooting/
+│   ├── common-issues.md
+│   └── debugging-containers.md
+│
+└── README.md
+```
+
+---
+
 ## **Getting Started**
 1. Clone the repository:
    ```bash
