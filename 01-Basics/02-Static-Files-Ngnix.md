@@ -42,6 +42,12 @@ Run the Nginx container and bind your static site directory to the container’s d
 docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx
 ```
 
+#### For Windows host
+
+```bash
+docker run -d -p 8080:80 -v "path-to-site":/usr/share/nginx/html nginx
+```
+
 - **`-d`**: Runs the container in detached mode.
 - **`-p 8080:80`**: Maps port 8080 on your host to port 80 in the container.
 - **`-v $(pwd):/usr/share/nginx/html`**: Mounts your current directory as the container’s web root.
