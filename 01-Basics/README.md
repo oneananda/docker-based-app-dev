@@ -89,10 +89,10 @@ docker stop <container_id>
 
 2. Run the Nginx container:
    ```bash
-   docker run -d -p 8080:80 nginx
+   docker run -d -p 8085:80 nginx
    ```
 
-3. Access the Nginx server in your browser at `http://localhost:8080`.
+3. Access the Nginx server in your browser at `http://localhost:8085`.
 
 4. Stop and remove the container:
    ```bash
